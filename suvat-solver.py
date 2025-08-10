@@ -8,37 +8,12 @@ v = input('final velocity(v):')
 a = input('acceleration(a):')
 t = input('time(t):')
 
-##### for test
-print(s)
-print(u)
-print(v)
-print(a)
-print(t)
-#####
-
 s = float(s) if s else None 
 u = float(u) if u else None 
 v = float(v) if v else None 
 a = float(a) if a else None 
 t = float(t) if t else None 
 
-
-##### for test
-print(s)
-print(u)
-print(v)
-print(a)
-print(t)
-#####
-
-
-##### for testing
-print('tototo')
-#####
-
-
-
- 
 # v = u + at  
 if v is None and u is not None and a is not None and t is not None:
     v = u + ( a * t )
@@ -70,18 +45,6 @@ if a is None and v is not None and u is not None and s is not None:
 #  u = v - at
 if u is None and v is not None and a is not None and t is not None:
     u = v - a * t
-
-
-
-
-
-##### for test
-print(s)
-print(u)
-print(v)
-print(a)
-print(t)
-#####
 
 print("Displacement (s):", s)
 print("Initial velocity (u):", u)
